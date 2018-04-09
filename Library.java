@@ -14,6 +14,7 @@ public class Library {
             }
         }
     }
+    
     public void printEqualYear(int year) {
         search:
         for (Literature literature[] : literatures) {
@@ -23,7 +24,6 @@ public class Library {
                     break search;
                 }
             }
-
         }
     }
 }
