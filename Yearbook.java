@@ -1,25 +1,17 @@
 package com.company;
 
-public class Yearbook {
-    String name;
+public class Yearbook extends Literature{
     String topic;
     String publishing;
-    int year;
 
     public Yearbook(String name, String topic, String publishing, int year) {
-        this.name = name;
+        super(name, year);
         this.topic = topic;
         this.publishing = publishing;
-        this.year = year;
     }
-    public void printYear() {
-        System.out.println("Название журнала: " + name);
+    public void print() {
+        super.print();
         System.out.println("Тематика: " + topic);
-        System.out.println("Год издания: " + year);
         System.out.println("Издательство: " + publishing);
-        System.out.println("");
-    }
-    public boolean equalsYear(int year){
-        return this.year == year;
     }
 }
