@@ -7,6 +7,7 @@ public class Book extends Literature{
         super(name, year);
         this.author = author;
     }
+    
     public void print() {
         super.print();
         System.out.println("Автор книги :" + author);
