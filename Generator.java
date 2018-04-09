@@ -40,7 +40,7 @@ public class Generator {
             }
 
         }
-        Literature literatures[][] =  {books, magazines, magazines};
+        Literature literatures[][] =  {books, magazines, yearbooks};
         return literatures;
     }
 }
