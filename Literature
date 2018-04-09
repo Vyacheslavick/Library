@@ -1,0 +1,21 @@
+package com.company;
+
+public class Literature  {
+    String name;
+    int year;
+
+    public Literature(String name, int year) {
+        this.name = name;
+        this.year = year;
+    }
+
+    public void print() {
+        System.out.println("");
+        System.out.println("Название:" + name);
+        System.out.println("Год издания :" + year);
+    }
+    
+    public boolean equalsYear(int year){
+        return this.year == year;
+    }
+}
